@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "H107B6kn6o0wF4d3CeetEhb/Np+cA9cOBkMHtV2jyVKRKAI2ongPKc5g9BVgQO8bB/9OUjW2Aq5OU4gdrC1c5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\varka\\Documents\\4course1sem\\ИИ Основы искусственного интеллекта\\лаба 5 Генетический алгоритм\\GeneticAlg\\GeneticAlg\\GeneticAlg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\varka\\.nuget\\packages\\microsoft.extensions.objectpool\\6.0.7\\microsoft.extensions.objectpool.6.0.7.nupkg.sha512",
+    "C:\\Users\\varka\\.nuget\\packages\\nostringevaluating\\2.5.1\\nostringevaluating.2.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

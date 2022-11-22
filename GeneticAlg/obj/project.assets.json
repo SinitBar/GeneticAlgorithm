@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Microsoft.Extensions.ObjectPool/6.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NoStringEvaluating/2.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.ObjectPool": "6.0.7"
+        },
+        "compile": {
+          "lib/net6.0/NoStringEvaluating.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/NoStringEvaluating.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.ObjectPool/6.0.7": {
+      "sha512": "vItr+MUI5PPOo/HFk6p87v0+C8Zl7TLaFAyY543VJLYy/OKEWJCSiHIOLNFOpohR9QDr4d2BTUX8JiWXr3Y+4w==",
+      "type": "package",
+      "path": "microsoft.extensions.objectpool/6.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net461/Microsoft.Extensions.ObjectPool.xml",
+        "lib/net6.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net6.0/Microsoft.Extensions.ObjectPool.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
+        "microsoft.extensions.objectpool.6.0.7.nupkg.sha512",
+        "microsoft.extensions.objectpool.nuspec"
+      ]
+    },
+    "NoStringEvaluating/2.5.1": {
+      "sha512": "IGJZOMK+THeCfZe4memuOWRxiojIdLlGkWlwIgbbnO8RtOCjwzNaklXL14z/z1zv98KYJDdmXP+4HYUkxxjcCQ==",
+      "type": "package",
+      "path": "nostringevaluating/2.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/NoStringEvaluating.dll",
+        "lib/net6.0/NoStringEvaluating.xml",
+        "logo.png",
+        "nostringevaluating.2.5.1.nupkg.sha512",
+        "nostringevaluating.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "NoStringEvaluating >= 2.5.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\varka\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\varka\\Documents\\4course1sem\\ИИ Основы искусственного интеллекта\\лаба 5 Генетический алгоритм\\GeneticAlg\\GeneticAlg\\GeneticAlg.csproj",
+      "projectName": "GeneticAlg",
+      "projectPath": "C:\\Users\\varka\\Documents\\4course1sem\\ИИ Основы искусственного интеллекта\\лаба 5 Генетический алгоритм\\GeneticAlg\\GeneticAlg\\GeneticAlg.csproj",
+      "packagesPath": "C:\\Users\\varka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\varka\\Documents\\4course1sem\\ИИ Основы искусственного интеллекта\\лаба 5 Генетический алгоритм\\GeneticAlg\\GeneticAlg\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\varka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "NoStringEvaluating": {
+            "target": "Package",
+            "version": "[2.5.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
